@@ -598,7 +598,7 @@ ADD patch/ /usr/src/
 RUN sed 's/@SECLEVEL=2/@SECLEVEL=1/' -i /etc/crypto-policies/back-ends/opensslcnf.config
 
 ### app ports
-ENV APP_PORT_HTTP         80
+ENV APP_PORT_HTTP         8080
 ENV APP_PORT_HTTPS        443
 ENV APP_PORT_IAX          4569
 ENV APP_PORT_PJSIP        5060
