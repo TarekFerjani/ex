@@ -1,4 +1,4 @@
-FROM faradaysec/faraday:latest
+FROM bludesign/faxserver:latest
 
 
 
